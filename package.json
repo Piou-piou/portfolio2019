@@ -1,0 +1,31 @@
+{
+  "name": "portfolio2019",
+  "version": "1.0.0",
+  "description": "This is my personnal website. 2019 version",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "dependencies": {
+    "ribs-flash-message": "^1.2.3",
+    "ribs-grid": "^1.0.1",
+    "ribs-popup": "^1.0.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Piou-piou/portfolio2019.git"
+  },
+  "keywords": [
+    "portfolio-website"
+  ],
+  "author": "pioupiou <pilloud.anthony@gmail.com> (https://anthony-pilloud.fr)",
+  "license": "AGPL-3.0",
+  "bugs": {
+    "url": "https://github.com/Piou-piou/portfolio2019/issues"
+  },
+  "homepage": "https://github.com/Piou-piou/portfolio2019#readme"
+}
