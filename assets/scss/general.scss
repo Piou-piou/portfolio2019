@@ -4,6 +4,16 @@ body {
 	font-size: 16px;
 }
 
+section h2 {
+	color: $title-color;
+	font-size: $title-size;
+}
+
+p {
+	line-height: 1.4;
+	color: $text-color;
+}
+
 .tac {
 	text-align: center;
 }
