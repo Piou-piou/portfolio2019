@@ -1,0 +1,20 @@
+header {
+	height: 100vh;
+	background: url("../images/introduction.jpg") 50% 0% no-repeat fixed;
+	color: $introduction-text-color;
+
+	> div.title {
+		height: 100vh;
+
+		h1, h2 {
+			font-weight: normal;
+			display: block;
+			margin: 0;
+			font-size: 2.625rem;
+
+			span {
+				color: $third-color;
+			}
+		}
+	}
+}
