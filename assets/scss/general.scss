@@ -1,23 +1,38 @@
 body {
 	font-family: Raleway, serif;
-	margin: 0;
 	font-size: 16px;
 }
 
 section h2 {
 	color: $title-color;
 	font-size: $title-size;
+	margin: 2.125rem 0;
+	position: relative;
+
+	&:after {
+		content: ' ';
+		position: absolute;
+		width: 30%;
+		height: 3px;
+		background-color: $third-color;
+		bottom: -1rem;
+		left: 35%;
+	}
 }
 
 p {
 	line-height: 1.4;
 	color: $text-color;
+	margin: 1rem 0;
 }
 
 .tac {
 	text-align: center;
 }
 
-.row img {
-	max-width: 100%;
+a.main-button {
+	display: inline-block;
+	border: 2px solid $action-color;
+	padding: 0.625rem;
+	margin-top: 0.625rem;
 }

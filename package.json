@@ -8,8 +8,9 @@
   },
   "dependencies": {
     "ribs-flash-message": "^1.2.3",
-    "ribs-grid": "^1.0.1",
-    "ribs-popup": "^1.0.2"
+    "ribs-grid": "^1.0.2",
+    "ribs-popup": "^1.0.2",
+    "ribs-reset-css": "^1.0.1"
   },
   "devDependencies": {
     "@symfony/webpack-encore": "^0.17.0",
