@@ -1,3 +1,14 @@
 #articles {
 	background: $first-background url("../images/projects.png") no-repeat center bottom;
+	padding-bottom: 9rem;
+
+	h3 {
+		font-size: 1.5rem;
+		margin-top: 1.875rem;
+		font-weight: bold;
+	}
+
+	p.date {
+		font-size: 0.9rem;
+	}
 }

@@ -22,6 +22,10 @@ section {
 			left: 35%;
 		}
 	}
+
+	h3 {
+		color: $title-color;
+	}
 }
 
 p {
@@ -32,6 +36,10 @@ p {
 
 .tac {
 	text-align: center;
+}
+
+.mt0 {
+	margin-top: 0;
 }
 
 a.main-button {
