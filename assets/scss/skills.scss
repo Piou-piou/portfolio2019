@@ -1,0 +1,16 @@
+#skills {
+	.line {
+		margin-bottom: 1rem;
+
+		img {
+			margin: auto;
+			display: block;
+		}
+	}
+
+	@media screen and (max-width: 767px) {
+		.line img {
+			margin: 1rem auto;
+		}
+	}
+}
