@@ -1,6 +1,6 @@
 header {
 	height: 100vh;
-	background: url("../images/introduction.jpg") 50% 0% no-repeat fixed;
+	background: url("../images/about-me.png") center bottom no-repeat, url("../images/introduction.jpg") 50% 0% no-repeat fixed;
 	color: $introduction-text-color;
 
 	> div.title {

@@ -3,20 +3,24 @@ body {
 	font-size: 16px;
 }
 
-section h2 {
-	color: $title-color;
-	font-size: $title-size;
-	margin: 4.125rem 0;
-	position: relative;
+section {
+	padding-bottom: 5.625rem;
 
-	&:after {
-		content: ' ';
-		position: absolute;
-		width: 30%;
-		height: 3px;
-		background-color: $third-color;
-		bottom: -1rem;
-		left: 35%;
+	h2 {
+		color: $title-color;
+		font-size: $title-size;
+		margin: 0 0 4.125rem 0;
+		position: relative;
+
+		&:after {
+			content: ' ';
+			position: absolute;
+			width: 30%;
+			height: 3px;
+			background-color: $third-color;
+			bottom: -1rem;
+			left: 35%;
+		}
 	}
 }
 
