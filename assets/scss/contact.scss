@@ -24,11 +24,11 @@
 			line-height: 1rem;
 			font-size: 1rem;
 			font-weight: 400;
-			transform: translateY(32px);
+			transform: translateY(1.5rem);
 			transition: transform 0.3s, font-size 0.3s;
 
 			&.label-textarea {
-				transform: translateY(37px);
+				transform: translateY(2.3rem);
 				margin-left: 10px;
 			}
 		}
