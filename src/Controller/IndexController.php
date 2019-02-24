@@ -15,6 +15,22 @@ class IndexController extends AbstractController
 	 */
 	public function index(): Response
 	{
+		$xml = file_get_contents("https://medium.com/feed/@pilloud.anthony");
+		$rss = new \SimpleXMLElement($xml, LIBXML_NOWARNING | LIBXML_NOERROR | LIBXML_NOCDATA);
+		
+		$articles = [];
+		
+		foreach($rss->channel->item as $article) {
+			$content = $article->children("content", true);
+			
+			$articles[] = [
+				"title" => $article->title,
+				"link" => explode("?", $article->link)[0],
+				"categories" => $article->category,
+				"date" => $article->pubDate
+			];
+		}
+		
 		return $this->render("index.html.twig");
 	}
 	
