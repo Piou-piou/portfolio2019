@@ -33,5 +33,13 @@ class IndexController extends AbstractController
 		
 		return $this->render("index.html.twig");
 	}
-	
+
+	/**
+	 * @Route("/index", name="base_index")
+	 * @return Response
+	 */
+	public function baseIndex(): Response
+	{
+		return $this->render("index.html.twig");
+	}
 }
